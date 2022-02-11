@@ -1,0 +1,363 @@
+<?xml version="1.0" standalone="yes"?>
+<ds xmlns="http://tempuri.org/ds.xsd">
+  <T_etudiants>
+    <etu_da>1222346</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Castagnette</etu_nom>
+    <etu_prenom>Joey</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>125 rue Faucher</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(565) 656-5656</etu_telephone>
+    <etu_codepostal>H5H-5H5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1233233</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Lévis</etu_nom>
+    <etu_prenom>Victor</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>345 Loop Avenue</etu_adresse>
+    <etu_ville>Torino River</etu_ville>
+    <etu_province>Nouveau-Brunswick</etu_province>
+    <etu_telephone>(565) 656-5656</etu_telephone>
+    <etu_codepostal>Y5Y-5Y5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234560</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Tremblay</etu_nom>
+    <etu_prenom>Robert</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>55 rue de l`esperanto</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 882-0011</etu_telephone>
+    <etu_codepostal>G1H-8Y3</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234561</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Tremblay</etu_nom>
+    <etu_prenom>Suzanne</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>1055 Racine</etu_adresse>
+    <etu_ville>LaBaie</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 882-1234</etu_telephone>
+    <etu_codepostal>G7H-2Y3</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234562</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Simard</etu_nom>
+    <etu_prenom>Nicole</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>33 Bégin</etu_adresse>
+    <etu_ville>jonquière</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 544-1292</etu_telephone>
+    <etu_codepostal>G7H-2R5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234563</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Potvin</etu_nom>
+    <etu_prenom>Michel</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>44 rue des sapins</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 549-1244</etu_telephone>
+    <etu_codepostal>G7H-8X8</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234564</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Gagnon</etu_nom>
+    <etu_prenom>Pierre</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>525 des perdrix</etu_adresse>
+    <etu_ville>Alma</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 678-1111</etu_telephone>
+    <etu_codepostal>G4H-4F3</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234565</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Gagnon</etu_nom>
+    <etu_prenom>Paul</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>22 des prés</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 532-2222</etu_telephone>
+    <etu_codepostal>G3A-2S3</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234566</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Gagné</etu_nom>
+    <etu_prenom>Nicole</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>467 de la réserve</etu_adresse>
+    <etu_ville>Alma</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 555-3333</etu_telephone>
+    <etu_codepostal>G4H-4T5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234567</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Ferland</etu_nom>
+    <etu_prenom>Martine</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>234 de la montagne</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(417) 547-4444</etu_telephone>
+    <etu_codepostal>G6H-9J9</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234568</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Côté</etu_nom>
+    <etu_prenom>Benoit</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>1200 du pont</etu_adresse>
+    <etu_ville>Alma</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(417) 333-5555</etu_telephone>
+    <etu_codepostal>H0H-3D3</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234569</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Bouchard</etu_nom>
+    <etu_prenom>Alain</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>77 des peupliers</etu_adresse>
+    <etu_ville>LaBaie</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 544-8888</etu_telephone>
+    <etu_codepostal>X1H-2W2</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234570</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Bouchard</etu_nom>
+    <etu_prenom>Jean</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>999 des roses</etu_adresse>
+    <etu_ville>LaBaie</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(418) 544-8899</etu_telephone>
+    <etu_codepostal>R5R-7Y6</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1234678</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Bernard</etu_nom>
+    <etu_prenom>Gilles</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>45 des Oliviers</etu_adresse>
+    <etu_ville>Lévis</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(676) 778-7889</etu_telephone>
+    <etu_codepostal>H6H-6H6</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1235433</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Tremblay</etu_nom>
+    <etu_prenom>Jason</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>56 de l'Esplanade</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(676) 767-8878</etu_telephone>
+    <etu_codepostal>T4T-4T4</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>1254378</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Côté</etu_nom>
+    <etu_prenom>David</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>900 rue Grenier</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(435) 454-6576</etu_telephone>
+    <etu_codepostal>F3F-3F3</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>2233434</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Reno</etu_nom>
+    <etu_prenom>Ginette</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>124 Montcalm</etu_adresse>
+    <etu_ville>Québech</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(565) 677-6787</etu_telephone>
+    <etu_codepostal>H5Y-5Y5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>2342344</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Boivin</etu_nom>
+    <etu_prenom>Mireille</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>676 Union</etu_adresse>
+    <etu_ville>Montréal</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(565) 656-5656</etu_telephone>
+    <etu_codepostal>Y5Y-5Y5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>2344556</etu_da>
+    <pro_no>LEA.3F</pro_no>
+    <etu_nom>Lavoie</etu_nom>
+    <etu_prenom>Agathe</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>4345 chemin blanc</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(455) 456-5656</etu_telephone>
+    <etu_codepostal>Y5Y-6Y6</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>2346767</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Jean</etu_nom>
+    <etu_prenom>Antoine</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>345 Belair</etu_adresse>
+    <etu_ville>Alley Field</etu_ville>
+    <etu_province>Manitoba</etu_province>
+    <etu_telephone>(556) 787-8989</etu_telephone>
+    <etu_codepostal>T5H-5H5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>3454545</etu_da>
+    <pro_no>LEA.3F</pro_no>
+    <etu_nom>Langevin</etu_nom>
+    <etu_prenom>Anick</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>334 Pere Arnaud</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(676) 878-7898</etu_telephone>
+    <etu_codepostal>Y5Y-5Y5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>4354454</etu_da>
+    <pro_no>LEA.4R</pro_no>
+    <etu_nom>Bilodau</etu_nom>
+    <etu_prenom>Jean</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>46 Trembles</etu_adresse>
+    <etu_ville>Montreal</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(767) 676-7676</etu_telephone>
+    <etu_codepostal>H6H-6H6</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>4455677</etu_da>
+    <pro_no>LEA.3F</pro_no>
+    <etu_nom>Samourai</etu_nom>
+    <etu_prenom>Pierre</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>435 Poilu </etu_adresse>
+    <etu_ville>Quebec</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(676) 767-6767</etu_telephone>
+    <etu_codepostal>H6H-6H6</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>4544545</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Robert</etu_nom>
+    <etu_prenom>Tania</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>23 de la Sonde</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(454) 545-4545</etu_telephone>
+    <etu_codepostal>T4T-4T4</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>4545656</etu_da>
+    <pro_no>LEA.4R</pro_no>
+    <etu_nom>Laratte</etu_nom>
+    <etu_prenom>Georges</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>4546</etu_adresse>
+    <etu_ville>Quebec</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(656) 565-6565</etu_telephone>
+    <etu_codepostal>Y5Y-5Y5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>4564323</etu_da>
+    <pro_no>LEA.3F</pro_no>
+    <etu_nom>Laforet</etu_nom>
+    <etu_prenom>Maurice</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>78 de la glace</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(676) 767-7878</etu_telephone>
+    <etu_codepostal>H6H-6H6</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>5566565</etu_da>
+    <pro_no>LEA.3F</pro_no>
+    <etu_nom>Godin</etu_nom>
+    <etu_prenom>Laura</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>67 Sanscouci</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(778) 788-8886</etu_telephone>
+    <etu_codepostal>U5U-5U5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>6565656</etu_da>
+    <pro_no>LEA.1A</pro_no>
+    <etu_nom>Neault</etu_nom>
+    <etu_prenom>Bob</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>55 Amande</etu_adresse>
+    <etu_ville>Chicoutimi</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(656) 565-6565</etu_telephone>
+    <etu_codepostal>Y5Y-5Y5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>6567677</etu_da>
+    <pro_no>LEA.8J</pro_no>
+    <etu_nom>Labrie</etu_nom>
+    <etu_prenom>Mireille</etu_prenom>
+    <etu_sexe>F</etu_sexe>
+    <etu_adresse>2453 Campagnard</etu_adresse>
+    <etu_ville>Lévis</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(656) 565-6565</etu_telephone>
+    <etu_codepostal>G5G-5G5</etu_codepostal>
+  </T_etudiants>
+  <T_etudiants>
+    <etu_da>6576878</etu_da>
+    <pro_no>LEA.1B</pro_no>
+    <etu_nom>Morissette</etu_nom>
+    <etu_prenom>Alex</etu_prenom>
+    <etu_sexe>M</etu_sexe>
+    <etu_adresse>39 rue de Chambord</etu_adresse>
+    <etu_ville>Lévis</etu_ville>
+    <etu_province>Québec</etu_province>
+    <etu_telephone>(434) 667-7887</etu_telephone>
+    <etu_codepostal>G6J-1W6</etu_codepostal>
+  </T_etudiants>
+</ds>

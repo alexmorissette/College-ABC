@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds" targetNamespace="http://tempuri.org/ds.xsd" xmlns:mstns="http://tempuri.org/ds.xsd" xmlns="http://tempuri.org/ds.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="chaineSQL" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="chaineSQL (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TP1_College_ABC.My.MySettings.GlobalReference.Default.chaineSQL" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ds" msprop:Generator_UserDSName="ds">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="T_programme" msprop:Generator_TableClassName="T_programmeDataTable" msprop:Generator_TableVarName="tableT_programme" msprop:Generator_TablePropName="T_programme" msprop:Generator_RowDeletingName="T_programmeRowDeleting" msprop:Generator_RowChangingName="T_programmeRowChanging" msprop:Generator_RowEvHandlerName="T_programmeRowChangeEventHandler" msprop:Generator_RowDeletedName="T_programmeRowDeleted" msprop:Generator_UserTableName="T_programme" msprop:Generator_RowChangedName="T_programmeRowChanged" msprop:Generator_RowEvArgName="T_programmeRowChangeEvent" msprop:Generator_RowClassName="T_programmeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pro_no" msprop:Generator_ColumnVarNameInTable="columnpro_no" msprop:Generator_ColumnPropNameInRow="pro_no" msprop:Generator_ColumnPropNameInTable="pro_noColumn" msprop:Generator_UserColumnName="pro_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pro_nom" msprop:Generator_ColumnVarNameInTable="columnpro_nom" msprop:Generator_ColumnPropNameInRow="pro_nom" msprop:Generator_ColumnPropNameInTable="pro_nomColumn" msprop:Generator_UserColumnName="pro_nom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pro_nbr_unites" msprop:Generator_ColumnVarNameInTable="columnpro_nbr_unites" msprop:Generator_ColumnPropNameInRow="pro_nbr_unites" msprop:Generator_ColumnPropNameInTable="pro_nbr_unitesColumn" msprop:Generator_UserColumnName="pro_nbr_unites" type="xs:double" />
+              <xs:element name="pro_nbr_heures" msprop:Generator_ColumnVarNameInTable="columnpro_nbr_heures" msprop:Generator_ColumnPropNameInRow="pro_nbr_heures" msprop:Generator_ColumnPropNameInTable="pro_nbr_heuresColumn" msprop:Generator_UserColumnName="pro_nbr_heures" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_etudiants" msprop:Generator_TableClassName="T_etudiantsDataTable" msprop:Generator_TableVarName="tableT_etudiants" msprop:Generator_RowChangedName="T_etudiantsRowChanged" msprop:Generator_TablePropName="T_etudiants" msprop:Generator_RowDeletingName="T_etudiantsRowDeleting" msprop:Generator_RowChangingName="T_etudiantsRowChanging" msprop:Generator_RowEvHandlerName="T_etudiantsRowChangeEventHandler" msprop:Generator_RowDeletedName="T_etudiantsRowDeleted" msprop:Generator_RowClassName="T_etudiantsRow" msprop:Generator_UserTableName="T_etudiants" msprop:Generator_RowEvArgName="T_etudiantsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="etu_da" msprop:Generator_ColumnVarNameInTable="columnetu_da" msprop:Generator_ColumnPropNameInRow="etu_da" msprop:Generator_ColumnPropNameInTable="etu_daColumn" msprop:Generator_UserColumnName="etu_da">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pro_no" msprop:Generator_ColumnVarNameInTable="columnpro_no" msprop:Generator_ColumnPropNameInRow="pro_no" msprop:Generator_ColumnPropNameInTable="pro_noColumn" msprop:Generator_UserColumnName="pro_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_nom" msprop:Generator_ColumnVarNameInTable="columnetu_nom" msprop:Generator_ColumnPropNameInRow="etu_nom" msprop:Generator_ColumnPropNameInTable="etu_nomColumn" msprop:Generator_UserColumnName="etu_nom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_prenom" msprop:Generator_ColumnVarNameInTable="columnetu_prenom" msprop:Generator_ColumnPropNameInRow="etu_prenom" msprop:Generator_ColumnPropNameInTable="etu_prenomColumn" msprop:Generator_UserColumnName="etu_prenom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_sexe" msprop:Generator_ColumnVarNameInTable="columnetu_sexe" msprop:Generator_ColumnPropNameInRow="etu_sexe" msprop:Generator_ColumnPropNameInTable="etu_sexeColumn" msprop:Generator_UserColumnName="etu_sexe" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_adresse" msprop:Generator_ColumnVarNameInTable="columnetu_adresse" msprop:Generator_ColumnPropNameInRow="etu_adresse" msprop:Generator_ColumnPropNameInTable="etu_adresseColumn" msprop:Generator_UserColumnName="etu_adresse" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_ville" msprop:Generator_ColumnVarNameInTable="columnetu_ville" msprop:Generator_ColumnPropNameInRow="etu_ville" msprop:Generator_ColumnPropNameInTable="etu_villeColumn" msprop:Generator_UserColumnName="etu_ville" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_province" msprop:Generator_ColumnVarNameInTable="columnetu_province" msprop:Generator_ColumnPropNameInRow="etu_province" msprop:Generator_ColumnPropNameInTable="etu_provinceColumn" msprop:Generator_UserColumnName="etu_province" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_telephone" msprop:Generator_ColumnVarNameInTable="columnetu_telephone" msprop:Generator_ColumnPropNameInRow="etu_telephone" msprop:Generator_ColumnPropNameInTable="etu_telephoneColumn" msprop:Generator_UserColumnName="etu_telephone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_codepostal" msprop:Generator_ColumnVarNameInTable="columnetu_codepostal" msprop:Generator_ColumnPropNameInRow="etu_codepostal" msprop:Generator_ColumnPropNameInTable="etu_codepostalColumn" msprop:Generator_UserColumnName="etu_codepostal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="T_login" msprop:Generator_TableClassName="T_loginDataTable" msprop:Generator_TableVarName="tableT_login" msprop:Generator_RowChangedName="T_loginRowChanged" msprop:Generator_TablePropName="T_login" msprop:Generator_RowDeletingName="T_loginRowDeleting" msprop:Generator_RowChangingName="T_loginRowChanging" msprop:Generator_RowEvHandlerName="T_loginRowChangeEventHandler" msprop:Generator_RowDeletedName="T_loginRowDeleted" msprop:Generator_RowClassName="T_loginRow" msprop:Generator_UserTableName="T_login" msprop:Generator_RowEvArgName="T_loginRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_UserColumnName="No" type="xs:int" />
+              <xs:element name="Utilisateur" msprop:Generator_ColumnVarNameInTable="columnUtilisateur" msprop:Generator_ColumnPropNameInRow="Utilisateur" msprop:Generator_ColumnPropNameInTable="UtilisateurColumn" msprop:Generator_UserColumnName="Utilisateur">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MotDePasse" msprop:Generator_ColumnVarNameInTable="columnMotDePasse" msprop:Generator_ColumnPropNameInRow="MotDePasse" msprop:Generator_ColumnPropNameInTable="MotDePasseColumn" msprop:Generator_UserColumnName="MotDePasse">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_programme" />
+      <xs:field xpath="mstns:pro_no" />
+    </xs:unique>
+    <xs:unique name="T_etudiants_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_etudiants" />
+      <xs:field xpath="mstns:etu_da" />
+    </xs:unique>
+    <xs:unique name="T_login_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:T_login" />
+      <xs:field xpath="mstns:No" />
+    </xs:unique>
+    <xs:keyref name="FK_T_programme_T_etudiants" refer="Constraint1" msprop:rel_Generator_UserChildTable="T_etudiants" msprop:rel_Generator_ChildPropName="GetT_etudiantsRows" msprop:rel_Generator_UserRelationName="FK_T_programme_T_etudiants" msprop:rel_Generator_ParentPropName="T_programmeRow" msprop:rel_Generator_RelationVarName="relationFK_T_programme_T_etudiants" msprop:rel_Generator_UserParentTable="T_programme" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:T_etudiants" />
+      <xs:field xpath="mstns:pro_no" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

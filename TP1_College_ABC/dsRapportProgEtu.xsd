@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRapportProgEtu" targetNamespace="http://tempuri.org/dsRapportProgEtu.xsd" xmlns:mstns="http://tempuri.org/dsRapportProgEtu.xsd" xmlns="http://tempuri.org/dsRapportProgEtu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRapportProgEtu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRapportProgEtu" msprop:Generator_DataSetName="dsRapportProgEtu">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="T_etudiants" msprop:Generator_TableClassName="T_etudiantsDataTable" msprop:Generator_TableVarName="tableT_etudiants" msprop:Generator_TablePropName="T_etudiants" msprop:Generator_RowDeletingName="T_etudiantsRowDeleting" msprop:Generator_RowChangingName="T_etudiantsRowChanging" msprop:Generator_RowEvHandlerName="T_etudiantsRowChangeEventHandler" msprop:Generator_RowDeletedName="T_etudiantsRowDeleted" msprop:Generator_UserTableName="T_etudiants" msprop:Generator_RowChangedName="T_etudiantsRowChanged" msprop:Generator_RowEvArgName="T_etudiantsRowChangeEvent" msprop:Generator_RowClassName="T_etudiantsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="etu_da" msprop:Generator_ColumnVarNameInTable="columnetu_da" msprop:Generator_ColumnPropNameInRow="etu_da" msprop:Generator_ColumnPropNameInTable="etu_daColumn" msprop:Generator_UserColumnName="etu_da" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pro_no" msprop:Generator_ColumnVarNameInTable="columnpro_no" msprop:Generator_ColumnPropNameInRow="pro_no" msprop:Generator_ColumnPropNameInTable="pro_noColumn" msprop:Generator_UserColumnName="pro_no">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_nom" msprop:Generator_ColumnVarNameInTable="columnetu_nom" msprop:Generator_ColumnPropNameInRow="etu_nom" msprop:Generator_ColumnPropNameInTable="etu_nomColumn" msprop:Generator_UserColumnName="etu_nom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="etu_prenom" msprop:Generator_ColumnVarNameInTable="columnetu_prenom" msprop:Generator_ColumnPropNameInRow="etu_prenom" msprop:Generator_ColumnPropNameInTable="etu_prenomColumn" msprop:Generator_UserColumnName="etu_prenom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:T_etudiants" />
+      <xs:field xpath="mstns:etu_da" />
+      <xs:field xpath="mstns:pro_no" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
